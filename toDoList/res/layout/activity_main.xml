@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+   
+     >
+
+       <ListView
+           android:id="@+id/lvTodo"
+           android:layout_width="293sp"
+           android:layout_height="250sp" >
+        
+    </ListView>
+
+	<EditText
+	    android:id="@+id/etadd"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_toLeftOf="@+id/button1"
+	    android:layout_weight="70"
+	    android:ems="10"
+	     />
+       
+    <Button
+        android:id="@+id/badd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Add"
+       
+         />
+
+</RelativeLayout>
+
